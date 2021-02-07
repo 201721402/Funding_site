@@ -1,0 +1,141 @@
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header > .header_left img{
+    width: 30px;
+}
+
+.header > .header_right img{
+    position: relative;
+    top:10px;
+    width: 30px;
+}
+.title h1 a{
+     text-decoration: none;
+     color: #000;
+     align-items: center;
+}
+
+.content table{
+    margin: 0 auto;
+    width: 1020px;
+}
+
+.content table thead{
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.content table tbody td{
+    padding: 10px 20px;
+    border: 1px solid #eee;
+}
+
+.content table tbody td img{
+    width: 50%;
+}
+
+.logout_icon img{
+    width: 30px;
+    position:relative;
+    top: 9px;
+    right:1px;
+}
+
+.mypage_icon img{
+    width: 30px;
+    position:relative;
+    top: 9px;
+    right:2px;
+}
+
+.content img{
+    width: 100%;
+}
+
+.check_btn{
+    width:30px;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.funding_content{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.funding_content img{ 
+    width: 40%;
+} 
+
+.register_content{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.register_content img{
+    width: 30px;
+    position: relative;
+    right:1px;
+    top: 10px;
+}
+
+.board_view_content{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.board_view_content img{
+  width: 40%;
+}
+
+.submit_btn{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #fff;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.write_btn{
+
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.board_list_btn{
+
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+.before_next_btn a{
+    text-decoration:none;
+}
+.before_next_btn a img{
+    margin: -7px 7px -7px -6px;
+    width: 30px;
+}
+
+.text{
+    width: 920px;
+}
